@@ -89,7 +89,7 @@ nav h1 span {
 .home {
     width: 80%;
     height: auto;
-    margin: 90px auto;
+    margin: 150px auto;
     display: flex;
     flex-wrap: wrap-reverse;
 }
@@ -230,8 +230,15 @@ nav h1 span {
     background-color: #ffffff08;
 }
 
+/* ABOUT START */
 
-
+main{
+    width: 100%;
+    height: auto;
+}
+.about{
+    width: 60%;
+}
 
 
 
@@ -322,7 +329,9 @@ nav h1 span {
     #cancel {
         right: 60px;
     }
-
+    .home {
+        margin: 90px auto;
+    }
     .home-info {
         width: 100%;
         justify-content: center;
@@ -370,7 +379,7 @@ nav h1 span {
     }
 
     .home-img img {
-        width: 60%;
+        width: 70%;
     }
 
     .home-info button {
@@ -454,17 +463,10 @@ nav h1 span {
     }
 
     .home-img img {
-        width: 70%;
+        width: 80%;
     }
 
     .home-info button {
-        width: 35%;
-        height: 15%;
+        width: 50%;
     }
-
-    .home-info h4 span {
-        text-align: center;
-        margin: auto;
-    }
-
 }
