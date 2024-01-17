@@ -409,7 +409,8 @@ main {
 
 .partner-1 {
     width: calc(100% / 3 - 20px);
-    height: auto;
+    /* height: auto; */
+    height: 520px;
     border-radius: 8px;
     padding: 15px 10px;
     border: 1px solid rgb(75, 74, 74);
@@ -656,6 +657,15 @@ main {
         margin-bottom: 30px;
         /* width: calc(100% / 2 - 30px); */
     }
+    .partner {
+        justify-content: center;
+        gap: 30px;
+    }
+    .partner-1 {
+        width:calc(100% / 2 - 20px);
+        height: auto;
+        /* height: 520px; */
+    }
 }
 
 
@@ -737,5 +747,10 @@ main {
 
     .portfolio h2 {
         font-size: 1.5rem;
+    }
+    .partner-1 {
+        width:100%;
+        height: auto;
+        /* height: 520px; */
     }
 }
