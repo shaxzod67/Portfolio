@@ -103,7 +103,6 @@ nav h1 span {
     justify-content: center;
     padding: 3rem 0px;
     /* 100 - 10% */
-    border: 1px solid red;
 }
 
 .links a {
@@ -158,7 +157,6 @@ nav h1 span {
     justify-content: start;
     padding: 1rem;
     /* 100 - 60% */
-    border: 1px solid red;
 }
 
 .home-info h2 {
@@ -201,7 +199,6 @@ nav h1 span {
     justify-content: center;
     padding: 1rem;
     /* 100 - 30% */
-    border: 1px solid red;
 }
 
 .home-img img {
@@ -326,7 +323,8 @@ main {
 .about-info-3 ol li a:hover {
     color: blue;
 }
-.portfolio{
+
+.portfolio {
     width: 80%;
     height: auto;
     margin: 50px auto;
@@ -334,10 +332,12 @@ main {
     align-items: center;
     justify-content: center;
 }
-.portfolio h2{
+
+.portfolio h2 {
     font-size: 2rem;
     color: #ffc300;
 }
+
 .container {
     width: 80%;
     height: auto;
@@ -396,7 +396,87 @@ main {
     height: auto;
 }
 
+.partner {
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
 
+.partner-1 {
+    width: calc(100% / 3 - 20px);
+    height: auto;
+    border-radius: 8px;
+    padding: 15px 10px;
+    border: 1px solid rgb(75, 74, 74);
+    transition: .7s;
+}
+.partner-1:hover{
+    box-shadow: 1px 1px 20px rgb(75, 74, 74);
+}
+.partner-img {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    text-align: center;
+
+}
+
+.partner-img img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.partner-info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+
+.partner-info h2 {
+    text-align: center;
+    color: #ffc300;
+    font-size: 1.1rem;
+}
+
+.partner-info p {
+    text-align: center;
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+.partner-info button {
+    min-width: 100px;
+    background-color: transparent;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    transition: .7s;
+}
+.partner-info button:hover {
+    background: #FFF;
+    color: #01192f;
+    border: 1px solid #fff;
+}
+.partner-info button a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #FFF;
+    transition: .7s;
+}
+.partner-info button:hover a {
+    background: #FFF;
+    color: #01192f;
+}
 
 
 
@@ -654,7 +734,8 @@ main {
     .home-info button {
         width: 50%;
     }
-    .portfolio h2{
+
+    .portfolio h2 {
         font-size: 1.5rem;
     }
 }
