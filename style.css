@@ -232,15 +232,97 @@ nav h1 span {
 
 /* ABOUT START */
 
-main{
+main {
     width: 100%;
     height: auto;
 }
-.about{
-    width: 60%;
+
+.about {
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid red;
 }
 
+.about-img {
+    width: calc(100% / 2 - 20px);
+    border: 1px solid red;
+}
 
+.about-img img {
+    width: 100%;
+}
+
+.about-info {
+    width: calc(100% / 2 - 20px);
+    border: 1px solid red;
+}
+
+.about-info-1 {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+
+.about-info-1 h2 {
+    font-size: 2rem;
+    color: #ffc300;
+}
+
+.about-info-1 p {
+    font-size: 0.7rem;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.about-info-2 {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+
+.about-info-2 h2 {
+    font-size: 1.1rem;
+    color: #ffc300;
+    margin-top: 20px
+}
+.about-info-2 h3 {
+    font-size: 1rem;
+    color: #FFF;
+}
+.about-info-2 p {
+    font-size: 0.6rem;
+    color: #FFF;
+    margin-top: 20px;
+}
+.about-info-2 p u {
+    font-size: 0.65rem;
+    color: #FFF;
+}
+.about-info-3{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+.about-info-3 h2{
+    font-size: 1rem;
+    color: #ffc300;
+}
+.about-info-3 ol{
+   list-style: none;
+   line-height: 20px;
+}
+.about-info-3 ol li a{
+    color: #FFF;
+    font-size: 0.5rem;
+ }
+ .about-info-3 ol li a:hover{
+    color: blue;
+ }
+ 
 
 
 
@@ -329,9 +411,11 @@ main{
     #cancel {
         right: 60px;
     }
+
     .home {
         margin: 90px auto;
     }
+
     .home-info {
         width: 100%;
         justify-content: center;
@@ -391,7 +475,68 @@ main{
         text-align: center;
         margin: auto;
     }
-
+    .about-img {
+        width:100% ;
+    }   
+    .about-info {
+        width: 100%;
+    }    
+    .about-info-1 h2 {
+        font-size: 2rem;
+        color: #ffc300;
+    }
+    
+    .about-info-1 p {
+        font-size: 0.7rem;
+        color: #fff;
+        margin-top: 20px;
+    }
+    
+    .about-info-2 {
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+    }
+    
+    .about-info-2 h2 {
+        font-size: 1.1rem;
+        color: #ffc300;
+        margin-top: 20px
+    }
+    .about-info-2 h3 {
+        font-size: 1rem;
+        color: #FFF;
+    }
+    .about-info-2 p {
+        font-size: 0.6rem;
+        color: #FFF;
+        margin-top: 20px;
+    }
+    .about-info-2 p u {
+        font-size: 0.65rem;
+        color: #FFF;
+    }
+    .about-info-3{
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+    }
+    .about-info-3 h2{
+        font-size: 1rem;
+        color: #ffc300;
+    }
+    .about-info-3 ol{
+       list-style: none;
+       line-height: 20px;
+    }
+    .about-info-3 ol li a{
+        color: #FFF;
+        font-size: 0.5rem;
+     }
+     .about-info-3 ol li a:hover{
+        color: blue;
+     }
+     
 }
 
 
@@ -433,6 +578,7 @@ main{
     #cancel {
         right: 40px;
     }
+
     .links-2 {
         width: 50%;
         justify-content: space-around;
