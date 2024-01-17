@@ -99,9 +99,11 @@ nav h1 span {
     width: calc(100% / 10 - 20px);
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    padding: 3rem 0px;
+    box-sizing: border-box;
+    padding: 1.5rem 0px;
+    /* border: 1px solid red; */
     /* 100 - 10% */
 }
 
@@ -396,6 +398,18 @@ main {
     height: auto;
 }
 
+.jamoa {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.jamoa h2 {
+    color: #ffc300;
+    font-size: 2rem;
+    text-align: center;
+}
+
 .partner {
     width: 80%;
     height: auto;
@@ -416,9 +430,11 @@ main {
     border: 1px solid rgb(75, 74, 74);
     transition: .7s;
 }
-.partner-1:hover{
+
+.partner-1:hover {
     box-shadow: 1px 1px 20px rgb(75, 74, 74);
 }
+
 .partner-img {
     width: 100%;
     height: auto;
@@ -463,17 +479,20 @@ main {
     border-radius: 6px;
     transition: .7s;
 }
+
 .partner-info button:hover {
     background: #FFF;
     color: #01192f;
     border: 1px solid #fff;
 }
+
 .partner-info button a {
     text-decoration: none;
     font-size: 0.8rem;
     color: #FFF;
     transition: .7s;
 }
+
 .partner-info button:hover a {
     background: #FFF;
     color: #01192f;
@@ -657,12 +676,14 @@ main {
         margin-bottom: 30px;
         /* width: calc(100% / 2 - 30px); */
     }
+
     .partner {
         justify-content: center;
         gap: 30px;
     }
+
     .partner-1 {
-        width:calc(100% / 2 - 20px);
+        width: calc(100% / 2 - 20px);
         height: auto;
         /* height: 520px; */
     }
@@ -748,8 +769,9 @@ main {
     .portfolio h2 {
         font-size: 1.5rem;
     }
+
     .partner-1 {
-        width:100%;
+        width: 100%;
         height: auto;
         /* height: 520px; */
     }
