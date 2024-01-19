@@ -413,7 +413,8 @@ main {
 .partner {
     width: 80%;
     height: auto;
-    margin: 100px auto;
+    margin: auto;
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -497,14 +498,104 @@ main {
     background: #FFF;
     color: #01192f;
 }
-footer{
+.aloqa {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.aloqa-1 {
+    width: calc(100% / 3.3 - 10px);
+    height: auto;
+}
+.aloqa-1 h2{
+    width: 100%;
+    font-size: 1.7rem;
+    color: #ffc300;
+    margin-bottom: 30px;
+}
+.aloqa-1 p{
+    width: 100%;
+    font-size: 0.7rem;
+    color: #ffffff74;
+}
+.aloqa-2 {
+    width: calc(100% / 1.4 - 10px);
+    height: auto;
+    padding:  0px 20px;
+    /* line-height: 4rem; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.aloqa-2 button{
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ffffff74 ;
+    color: #FFF;
+    transition: .7s;
+    font-weight: bold;
+
+}
+.aloqa-2 button:hover{
+   box-shadow: 1px 1px 10px gray;
+   background: #FFF;
+   color: #01192f;
+   font-weight: bold;
+}
+.aloqa-inp {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name {
+    width: 48%;
+    border: 1px solid gray;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+#email {
+    width: 48%;
+    border: 1px solid gray;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+#prob{
+    width: 100%;
+    border: 1px solid gray;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+#matn{
+    width: 100%;
+    border: 1px solid gray;
+    font-size: 0.8rem;
+    padding: 10px;
+    color: #FFF;
+}
+
+footer {
     width: 100%;
     height: auto;
     box-sizing: border-box;
     padding: 50px 0px;
     background-color: rgba(0, 0, 0, 0.731);
+    margin-top: 50px;
 }
-.footer-1{
+
+.footer-1 {
     width: 80%;
     height: auto;
     margin: auto;
@@ -515,17 +606,20 @@ footer{
     /* background-color: rgba(0, 0, 0, 0.731); */
     background-color: transparent;
 }
-.footer-info h2{
+
+.footer-info h2 {
     font-size: 1.2rem;
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.731);
 }
-.footer-info  span{
+
+.footer-info span {
     font-size: 1.3rem;
     color: #ffc300;
     background: transparent;
 }
-.footer-img{
+
+.footer-img {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -534,25 +628,31 @@ footer{
     column-gap: 10px;
     background: transparent;
 }
-.footer-img a{
+
+.footer-img a {
     text-decoration: none;
     background: transparent;
 }
-.footer-img a i{
+
+.footer-img a i {
     color: #FFF;
     background: transparent;
     transition: .7s;
 }
-.footer-img a i:hover{
+
+.footer-img a i:hover {
     color: #ffc300;
 }
-footer p{
+
+footer p {
     text-align: center;
     font-size: .7rem;
     margin-top: 20px;
     background: transparent;
     color: #ffffff74;
 }
+
+
 
 
 
