@@ -100,7 +100,7 @@ nav h1 span {
     display: flex;
     flex-wrap: wrap;
     /* align-items: center; */
-    justify-content: center;
+    justify-content: start;
     box-sizing: border-box;
     padding: 1.5rem 0px;
     /* border: 1px solid red; */
@@ -109,7 +109,7 @@ nav h1 span {
 
 .links a {
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     display: block;
     color: #fff;
 }
