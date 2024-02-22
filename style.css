@@ -312,7 +312,7 @@ main {
 }
 
 .about-info-3 h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #ffc300;
 }
 
@@ -323,7 +323,7 @@ main {
 
 .about-info-3 ol li a {
     color: #FFF;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 .about-info-3 ol li a:hover {
@@ -662,7 +662,7 @@ footer p {
     border-radius: 30px;
     position: fixed;
     box-sizing: border-box;
-    padding: 30px 0px;
+    padding: 30px 10px;
     width: 90%;
     height: 50px;
     bottom: 5px;
@@ -678,7 +678,7 @@ footer p {
 .menu-bar a{
     text-decoration: none;
     background: transparent;
-    border: 1px solid #fff;
+    border: 2px solid #ffc300;
     padding: 5px 8px;
     border-radius: 50%;
     display: flex;
@@ -687,16 +687,16 @@ footer p {
     
 }
 .menu-bar a:active{
-    border: 1px solid #ffc300;
-    color: #ffc300; 
+    border: 2px solid #fff;
+    color: #fff; 
 }
 .menu-bar a i:active{
-    color: #ffc300; 
+    color: #fff; 
 }
 .menu-bar a i{
     font-size: 25px;
     background: transparent;
-    color: #fff;
+    color: #ffc300;
     border-radius: 50%;
 }
 
