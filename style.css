@@ -513,7 +513,7 @@ main {
 }
 
 .aloqa-1 {
-    width: calc(100% / 3.3 - 10px);
+    width: calc(100% / 3.5 - 10px);
     height: auto;
 }
 .aloqa-1 h2{
@@ -528,7 +528,7 @@ main {
     color: #ffffff74;
 }
 .aloqa-2 {
-    width: calc(100% / 1.4 - 10px);
+    width: calc(100% / 1.5 - 10px);
     height: auto;
     padding:  0px 20px;
     /* line-height: 4rem; */
