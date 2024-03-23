@@ -558,20 +558,22 @@ main {
 }
 
 #name {
-    width: 48%;
+    width: 100%;
     border: 1px solid gray;
     font-size: 0.8rem;
     padding: 10px;
     margin-bottom: 20px;
     color: #FFF;
+    overflow: hidden;
 }
 
 #email {
-    width: 48%;
+    width: 100%;
     border: 1px solid gray;
     font-size: 0.8rem;
     padding: 10px;
     margin-bottom: 20px;
+    overflow: hidden;
     color: #FFF;
 }
 #prob{
@@ -587,6 +589,7 @@ main {
     border: 1px solid gray;
     font-size: 0.8rem;
     padding: 10px;
+    margin-bottom: 15px;
     color: #FFF;
 }
 

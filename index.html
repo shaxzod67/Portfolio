@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <br id="home">
 
@@ -220,7 +221,7 @@
             </div>
         </div>
         <br id="jamoa"><br><br>
-        <div class="jamoa">
+        <!-- <div class="jamoa">
             <h2>
                 Mening Jamoam
             </h2>
@@ -282,7 +283,7 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </div> -->
         <br id="aloqa"> <br><br>
         <div class="aloqa" data-aos="zoom-in" data-aos-duration="1500">
             <div class="aloqa-1">
@@ -303,16 +304,13 @@
                 </p>
             </div>
             <div class="aloqa-2">
-                <form action="#">
-                    <div class="aloqa-inp">
-                        <input type="text" name="name" id="name" placeholder="Ismingiz">
-                        <input type="email" name="email" id="email" placeholder="email">
-                    </div>
-                    <input type="text" name="" id="prob" placeholder="Savolingiz">
-                    <textarea name="" id="matn" cols="30" rows="5"
-                        placeholder="O'zingiz haqizda ma'lumot kiriting"></textarea>
+                <form action="" onsubmit=" return sendtelegram()">
+                    <input type="text" name="name" id="name" placeholder="Ismingiz" required>
+                    <input type="email" name="email" id="email" placeholder="Email manzilingiz" required>
+                    <input name="matn" id="matn" placeholder="Izoh qoldiring" required>
+                    <!-- <input type="submit" value="Yuborish" id="btn"> -->
+                    <button id="btn">Yuborish</button>
                 </form>
-                <button type="submit">Yuborish</button>
             </div>
         </div>
     </main>
@@ -346,6 +344,7 @@
         </p>
         <br>
     </footer>
+    <script src="script.js"></script>
     <script>
         AOS.init();
     </script>
