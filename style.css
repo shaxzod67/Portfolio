@@ -592,6 +592,15 @@ main {
     margin-bottom: 15px;
     color: #FFF;
 }
+#tg{
+    width: 100%;
+    border: 1px solid gray;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+
 
 footer {
     width: 100%;

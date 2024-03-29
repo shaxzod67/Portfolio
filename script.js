@@ -7,7 +7,8 @@ var ready = function() {
     u_name = document.getElementById("name").value;
     email = document.getElementById("email").value;
     message = document.getElementById("matn").value;
-    message = "Ismi: " + u_name + "\nEmail: " + email + "\nIzoh: " + message;
+    tg = document.getElementById("tg").value;
+    message = "Ismi: " + u_name + "\nEmail: " + email + "\nSavol: " + message + "\nTg: " + `https://t.me/${tg}`;
 };
 var sendtelegram = function() {
     ready();
@@ -31,5 +32,6 @@ var sendtelegram = function() {
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("matn").value = "";
+    document.getElementById("tg").value = "";
     return false;
 };
