@@ -34,10 +34,12 @@ nav {
     justify-content: space-between;
 
 }
-.nav-1 img{
+
+.nav-1 img {
     width: 27px;
-    display:none;
+    display: none;
 }
+
 ul {
     width: 40%;
     display: flex;
@@ -90,6 +92,23 @@ nav h1 span {
     font-size: 1.4rem;
     font-weight: bold;
 }
+
+.dark {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#sun {
+    position: absolute;
+    color: #ffc300;
+    border: none;
+}
+
+
 
 .home {
     width: 80%;
@@ -502,6 +521,7 @@ main {
     background: #FFF;
     color: #01192f;
 }
+
 .aloqa {
     width: 80%;
     height: auto;
@@ -516,40 +536,46 @@ main {
     width: calc(100% / 3.5 - 10px);
     height: auto;
 }
-.aloqa-1 h2{
+
+.aloqa-1 h2 {
     width: 100%;
     font-size: 1.7rem;
     color: #ffc300;
     margin-bottom: 30px;
 }
-.aloqa-1 p{
+
+.aloqa-1 p {
     width: 100%;
     font-size: 0.7rem;
     color: #ffffff74;
 }
+
 .aloqa-2 {
     width: calc(100% / 1.5 - 10px);
     height: auto;
-    padding:  0px 20px;
+    padding: 0px 20px;
     /* line-height: 4rem; */
     /* display: flex; */
     /* flex-wrap: wrap; */
 }
-.aloqa-2 button{
+
+.aloqa-2 button {
     width: 100%;
     padding: 3px;
-    border: 1px solid #ffffff74 ;
+    border: 1px solid #ffffff74;
     color: #FFF;
     transition: .7s;
     font-weight: bold;
 
 }
-.aloqa-2 button:hover{
-   box-shadow: 1px 1px 10px gray;
-   background: #FFF;
-   color: #01192f;
-   font-weight: bold;
+
+.aloqa-2 button:hover {
+    box-shadow: 1px 1px 10px gray;
+    background: #FFF;
+    color: #01192f;
+    font-weight: bold;
 }
+
 .aloqa-inp {
     width: 100%;
     height: auto;
@@ -576,7 +602,8 @@ main {
     overflow: hidden;
     color: #FFF;
 }
-#prob{
+
+#prob {
     width: 100%;
     border: 1px solid gray;
     font-size: 0.8rem;
@@ -584,7 +611,8 @@ main {
     margin-bottom: 20px;
     color: #FFF;
 }
-#matn{
+
+#matn {
     width: 100%;
     border: 1px solid gray;
     font-size: 0.8rem;
@@ -592,7 +620,8 @@ main {
     margin-bottom: 15px;
     color: #FFF;
 }
-#tg{
+
+#tg {
     width: 100%;
     border: 1px solid gray;
     font-size: 0.8rem;
@@ -667,6 +696,7 @@ footer p {
     background: transparent;
     color: #ffffff74;
 }
+
 .menu-bar {
     display: flex;
     align-items: center;
@@ -687,7 +717,8 @@ footer p {
     backdrop-filter: blur(5px);
     display: none;
 }
-.menu-bar a{
+
+.menu-bar a {
     text-decoration: none;
     background: transparent;
     border: 2px solid #ffc300;
@@ -696,16 +727,19 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.menu-bar a:active{
+
+.menu-bar a:active {
     border: 2px solid #fff;
-    color: #fff; 
+    color: #fff;
 }
-.menu-bar a i:active{
-    color: #fff; 
+
+.menu-bar a i:active {
+    color: #fff;
 }
-.menu-bar a i{
+
+.menu-bar a i {
     font-size: 25px;
     background: transparent;
     color: #ffc300;
@@ -812,6 +846,25 @@ footer p {
         text-align: center;
     }
 
+    .dark {
+        right: 60px;
+        top: -10px;
+    }
+
+    #sun {
+        width:40px;
+        height: 40px;
+        font-size: 30px;
+        top: 5px;
+        position: relative;
+
+    }
+    #moon1 {
+        width:40px;
+        height: 40px;
+        font-size: 30px;
+        position: relative;
+    }
     .links {
         display: none;
     }
@@ -965,7 +1018,12 @@ footer p {
     .home-info h4 span {
         font-size: 0.8rem;
     }
-
+    .dark {
+        right: 0px;
+    }
+    #sun i {
+        font-size: 22px;
+    }
     .home-info p {
         font-size: 0.6rem;
     }
@@ -991,25 +1049,31 @@ footer p {
         height: auto;
         /* height: 520px; */
     }
+
     .aloqa-1 {
-        width:100%;
+        width: 100%;
     }
+
     .aloqa-2 {
-        width:100%;
+        width: 100%;
         margin-top: 20px;
         padding: 0px;
     }
-    .aloqa-1 h2{
+
+    .aloqa-1 h2 {
         margin-bottom: 10px;
     }
+
     .container .glass {
         width: 180px;
         height: 180px;
     }
-    .menu-bar{
+
+    .menu-bar {
         display: flex;
     }
-    .nav-1 img{
+
+    .nav-1 img {
         display: block;
     }
 }

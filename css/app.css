@@ -35,10 +35,12 @@ nav {
     justify-content: space-between;
 
 }
-.nav-1 img{
+
+.nav-1 img {
     width: 27px;
-    display:none;
+    display: none;
 }
+
 ul {
     width: 40%;
     display: flex;
@@ -90,6 +92,39 @@ nav h1 span {
     color: #ffc300;
     font-size: 1.4rem;
     font-weight: bold;
+}
+
+.dark {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+}
+
+#sun {
+    position: absolute;
+    color: #ffc300;
+    border: none;
+}
+
+#moon1 {
+    position: absolute;
+    color: #01192f;
+    display: none;
+    border: none;
+}
+
+#sun i {
+    background: transparent;
+
+}
+
+#moon1 i {
+    background: transparent;
+
 }
 
 .home {
@@ -231,6 +266,7 @@ nav h1 span {
     transition: .5s;
     scale: 1.05;
 }
+
 /* ABOUT START */
 
 main {
@@ -357,7 +393,7 @@ main {
     position: relative;
     width: calc(100% / 4 - 20px);
     height: 240px;
-    background: linear-gradient(#01192f, #01192fb7 );
+    background: linear-gradient(#01192f, #01192fb7);
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
@@ -497,6 +533,7 @@ main {
     background: #FFF;
     color: #01192f;
 }
+
 .aloqa {
     width: 80%;
     height: auto;
@@ -510,23 +547,27 @@ main {
     width: calc(100% / 3.5 - 10px);
     height: auto;
 }
-.aloqa-1 h2{
+
+.aloqa-1 h2 {
     width: 100%;
     font-size: 1.7rem;
     color: #ffc300;
     margin-bottom: 30px;
 }
-.aloqa-1 p{
+
+.aloqa-1 p {
     width: 100%;
     font-size: 0.7rem;
     color: #01192f;
 }
+
 .aloqa-2 {
     width: calc(100% / 1.5 - 10px);
     height: auto;
-    padding:  0px 20px;
+    padding: 0px 20px;
 }
-.aloqa-2 button{
+
+.aloqa-2 button {
     width: 100%;
     padding: 3px;
     border: none;
@@ -536,13 +577,15 @@ main {
     font-weight: bold;
 
 }
-.aloqa-2 button:hover{
-   box-shadow: 1px 1px 5px gray;
-   background: #FFF;
-   color: #01192f;
-   font-weight: bold;
-   border: none;
+
+.aloqa-2 button:hover {
+    box-shadow: 1px 1px 5px gray;
+    background: #FFF;
+    color: #01192f;
+    font-weight: bold;
+    border: none;
 }
+
 .aloqa-inp {
     width: 100%;
     height: auto;
@@ -569,7 +612,8 @@ main {
     overflow: hidden;
     color: #01192f;
 }
-#prob{
+
+#prob {
     width: 100%;
     border: 1px solid gray;
     font-size: 0.8rem;
@@ -577,7 +621,8 @@ main {
     margin-bottom: 20px;
     color: #01192f;
 }
-#matn{
+
+#matn {
     width: 100%;
     border: 1px solid gray;
     font-size: 0.8rem;
@@ -585,7 +630,8 @@ main {
     margin-bottom: 15px;
     color: #01192f;
 }
-#tg{
+
+#tg {
     width: 100%;
     border: 1px solid gray;
     font-size: 0.8rem;
@@ -659,6 +705,7 @@ footer p {
     background: transparent;
     color: gray;
 }
+
 .menu-bar {
     display: flex;
     align-items: center;
@@ -677,7 +724,8 @@ footer p {
     backdrop-filter: blur(5px);
     display: none;
 }
-.menu-bar a{
+
+.menu-bar a {
     text-decoration: none;
     background: transparent;
     border: 2px solid #ffc300;
@@ -686,16 +734,19 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.menu-bar a:active{
+
+.menu-bar a:active {
     border: 2px solid #01192f;
-    color: #01192f; 
+    color: #01192f;
 }
-.menu-bar a i:active{
-    color: #01192f; 
+
+.menu-bar a i:active {
+    color: #01192f;
 }
-.menu-bar a i{
+
+.menu-bar a i {
     font-size: 25px;
     background: transparent;
     color: #ffc300;
@@ -792,6 +843,28 @@ footer p {
 
     .home {
         margin: 90px auto;
+    }
+
+    .dark {
+        right: 60px;
+        top: -10px;
+    }
+
+    #sun {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        position: relative;
+
+    }
+
+    #moon1 {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        top: 5px;
+        background: transparent;
+        position: relative;
     }
 
     .home-info {
@@ -945,6 +1018,13 @@ footer p {
         font-size: 1.1rem;
     }
 
+    .dark {
+        right: 0px;
+    }
+    #moon1 i {
+        font-size: 22px;
+    }
+
     .home-info h1 {
         font-size: 1.3rem;
     }
@@ -977,25 +1057,31 @@ footer p {
         width: 100%;
         height: auto;
     }
+
     .aloqa-1 {
-        width:100%;
+        width: 100%;
     }
+
     .aloqa-2 {
-        width:100%;
+        width: 100%;
         margin-top: 20px;
         padding: 0px;
     }
-    .aloqa-1 h2{
+
+    .aloqa-1 h2 {
         margin-bottom: 10px;
     }
+
     .container .glass {
         width: 180px;
         height: 180px;
     }
-    .menu-bar{
+
+    .menu-bar {
         display: flex;
     }
-    .nav-1 img{
+
+    .nav-1 img {
         display: block;
     }
 }
