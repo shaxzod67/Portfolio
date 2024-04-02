@@ -8,7 +8,7 @@ var ready = function() {
     email = document.getElementById("email").value;
     message = document.getElementById("matn").value;
     tg = document.getElementById("tg").value;
-    message = "Ismi: " + u_name + "\nEmail: " + email + "\nSavol: " + message + "\nTg: " + `https://t.me/${tg}`;
+    message = "Ismi: " + u_name + "\nFamilya: " + email + "\nSavol: " + message + "\nTel: " + tg;
 };
 var sendtelegram = function() {
     ready();
