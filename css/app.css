@@ -720,7 +720,7 @@ footer p {
     z-index: 100;
     margin-left: 5%;
     margin-right: 5%;
-    background: linear-gradient(#fff2, rgba(49, 49, 49, 0.329));
+    background: linear-gradient(#01192fd0 , #01192fce);
     backdrop-filter: blur(5px);
     display: none;
 }
