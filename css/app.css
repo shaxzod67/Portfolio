@@ -216,24 +216,21 @@ nav h1 span {
     height: 17%;
     margin: 20px 0px;
     background-color: transparent;
-    border: 1px solid #01192f;
     border-radius: 6px;
+    background-color: #01192f;
 }
 
 .home-info button a {
     text-decoration: none;
-    color: #01192f;
+    color: #F5F5F5;
     font-size: 1rem;
     background-color: transparent;
 }
 
 .home-info button:hover {
-    scale: 1.01;
     transition: .5s;
-    box-shadow: 1px 1px 20px gray;
-    background-color: #ffffff08;
+    scale: 1.05;
 }
-
 /* ABOUT START */
 
 main {
@@ -360,7 +357,7 @@ main {
     position: relative;
     width: calc(100% / 4 - 20px);
     height: 240px;
-    background: linear-gradient(#fff2, transparent);
+    background: linear-gradient(#01192f, #01192fb7 );
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
@@ -394,7 +391,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #01192f;
+    color: white;
 }
 
 .container .glass a img {

@@ -1,13 +1,12 @@
 let btn = document.querySelector('#btn');
-let oq = document.querySelector('#oq');
+let moon = document.querySelector('#tun');
 
 function dark (){
-    if(oq.getAttribute('href') == './css/app.css'){
-        oq.href = './css/style.css'
+    if(moon.getAttribute('href') == './css/style.css'){
+        moon.href = './css/app.css'
     }
     else{
-        oq.href = './css/app.css'
+        moon.href = './css/style.css'
     }
-    console.log('hello');
 }
 btn.onclick = dark
