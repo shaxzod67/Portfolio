@@ -253,6 +253,7 @@ nav h1 span {
     background-color: transparent;
     border-radius: 6px;
     background-color: #01192f;
+    border: none;
 }
 
 .home-info button a {
